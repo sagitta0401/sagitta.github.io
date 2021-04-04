@@ -1,0 +1,268 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,p{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Header*/
+
+header{
+	background: linear-gradient(37deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	color: #fff;
+}
+
+h1{
+	font-size: 37px;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.container{
+	width: 1170px;
+	margin: auto;
+}
+
+.header_overlay{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.header_text{
+	display: block;
+}
+
+.header_text h1{
+	width: 560px;
+}
+
+.header_text h1 span{
+	display: block;
+	font-size: 59px;
+}
+
+.header_text p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 27px;
+	padding: 45px 0;
+	width: 400px;
+}
+
+.header_button{
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	text-align: center;
+	padding: 20px 0;
+	width: 222px;
+	color: #2e2a1b;
+	background-color: #ffd429;
+	margin-bottom: 210px;
+}
+
+.header_image{
+	width: 520px;
+	margin-bottom: 120px;
+}
+
+/*Main section*/
+
+.main{
+	color: #201b2d;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.main_title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 105px;
+	margin-bottom: 70px;
+}
+
+.main_all{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main_item{
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.main_header{
+	font-size: 19px;
+	font-weight: bold;
+	margin: 30px 0 25px 0;
+}
+
+.main_text{
+	font-size: 15px;
+	width: 295px;
+	line-height: 22px;
+}
+
+/*Reg section*/
+
+.reg{
+	background-color: #ecf3f8;
+	padding: 105px 0 100px 0;
+}
+
+.reg_title{
+	font-size: 30px;
+	color: #201b2d;
+	text-align: center;
+	
+}
+
+.reg_form{
+	margin-top: 55px;
+
+}
+
+.reg_input{
+	display: block;
+	margin-bottom: 15px;
+	margin: 0 auto 15px auto;
+	width: 300px;
+	height: 46px;
+	padding: 0 20px;
+}
+
+.reg_btn{
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+	color: #201b2d;
+	width: 345px;
+	height: 46px;
+	background-color: #ffd429;
+	border: 0;
+	margin: 0 auto 100px auto;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #164d7a;
+	padding: 65px 0 65px 0;
+}
+
+.footer_text{
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: calc(100% - 80px);
+	}
+
+	.header_image{
+		width: 100%;
+	}
+
+	.main_all{
+		display: block;
+	}
+
+	.main_text{
+		margin: 0 auto;
+	}
+
+	.header_text{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.header_text h1{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: calc(100% - 40px);
+	}
+
+	
+}
+
+@media screen and (max-width: 767px){
+	header{
+		padding-bottom: 210px;
+	}
+
+	.header_overlay{
+		display: block;
+	}
+
+	.header_text, .header_text h1{
+		width: 100%;
+	}
+
+	.header_image{
+		display: none;
+	}
+
+	.header_button{
+		margin-bottom: 0;
+	}
+	
+}
+
+@media screen and (max-width: 425px){
+	.container{
+		width: calc(100% - 30px);
+	}
+
+	.header_text p{
+		width: 100%;
+	}
+
+	.header_button{
+		margin: auto;
+	}
+
+	.reg_input{
+		width: 65%;
+	}
+
+	.reg_btn{
+		width: 76%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
